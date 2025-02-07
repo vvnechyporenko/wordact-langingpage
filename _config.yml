@@ -2,7 +2,7 @@
 page_title                                :                                           # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
 
 # App Info
-ios_app_id                                : 1472656524                                # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
+ios_app_id                                : 6741069450                                # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
 ios_app_country                           : us                                        # Required outside USA. Enter 2 letter country code as in https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2
 
 appstore_link                             :                                           # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
@@ -20,16 +20,16 @@ enable_smart_app_banner                   : true                                
 
 
 # Information About Yourself
-your_name                                 : Emil Baehr                                
-your_link                                 : https://emilbaehr.com                     
-your_city                                 : Copenhagen                                
-email_address                             : emil.baehr@gmail.com
+your_name                                 : Viacheslav Nechyporenko                               
+your_link                                 : https://familycharades.com                   
+your_city                                 : Tallinn                                
+email_address                             : atslavasdad@gmail.com
 facebook_username                         :                                           
-instagram_username                        : ebaehr
-twitter_username                          : ebaehr
-github_username                           : emilbaehr
+instagram_username                        : 
+twitter_username                          : 
+github_username                           : 
 youtube_username                          :
-mastodon_link                             : https://mastodon.social/@ebaehr
+mastodon_link                             : 
 
 
 
@@ -79,38 +79,38 @@ features                                  :
 
 
 # Theme Settings
-topbar_color                              : "#000000"
-topbar_transparency                       : 0.1
-topbar_title_color                        : "#ffffff"
+topbar_color                              : "#131313"                                # Matching black from design system
+topbar_transparency                       : 0.9                                      # Increased opacity for better contrast
+topbar_title_color                        : "#FDFDFD"                               # Matching white from design system
 
 # Add these lines for your custom domain
 url: "https://familycharades.com"
 enforce_ssl: familycharades.com
 
-cover_image                               : assets/headerimage.png                    # Replace with alternative image path or image URL.
-cover_overlay_color                       : "#363b3d"
+cover_image                               : #assets/headerimage.png                    
+cover_overlay_color                       : "#F2E6F7"                               # Matching lightPink from design system
 cover_overlay_transparency                : 0.8
 
-device_color                              : black                                     # Set to: blue, black, yellow, coral or white.
+device_color                              : coral                                     # Keeping black device color
 
-body_background_color                     : "#ffffff"
+body_background_color                     : "#F2E6F7"                               # Matching lightPink background
 
-link_color                                : "#1d63ea"
+link_color                                : "#DFC9FA"                               # Using darkBlue for links
 
-app_title_color                           : "#ffffff"
-app_price_color                           : "#ffffff"
-app_description_color                     : "#ffffff"
+app_title_color                           : "#131313"                               # Using black for contrast
+app_price_color                           : "#131313"                               # Using black for contrast
+app_description_color                     : "#131313"                               # Using black for contrast
 
-feature_title_color                       : "#000000"
-feature_text_color                        : "#666666"
+feature_title_color                       : "#131313"                               # Using black for titles
+feature_text_color                        : "#6B8989"                               # Using lightGray for feature text
 
-feature_icons_foreground_color            : "#1d63ea"
-feature_icons_background_color            : "#e6e6e6"
+feature_icons_foreground_color            : "#FEDA79"                               # Using darkYellow for icons
+feature_icons_background_color            : "#FFEAB1"                               # Using lightYellow for icon backgrounds
 
-social_icons_foreground_color             : "#666666"
-social_icons_background_color             : "#e6e6e6"
+social_icons_foreground_color             : "#131313"                               # Using black for social icons
+social_icons_background_color             : "#CCE5E5"                               # Using lightBlue for social icon backgrounds
 
-footer_text_color                         : "#666666"
+footer_text_color                         : "#6B8989"                               # Using lightGray for footer text
 
 
 
