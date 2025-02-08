@@ -7,13 +7,13 @@ ios_app_country                           : us                                  
 
 appstore_link                             :                                           # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
 playstore_link                            :                                           # Enter Google Play Store URL.
-presskit_download_link                    : https://emilbaehr.com                                          # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file). 
+presskit_download_link                    : #https://emilbaehr.com                                          # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file). 
                                                                                       # Or upload your press kit file to assets and set path accordingly (e.g. "assets/your_press_kit.zip").
 
 app_icon                                  : # assets/appicon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
 app_name                                  :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_price                                 :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_description                           : Write a short tagline for your app.
+app_description                           : Family-friendly charades and alias game—no reading required!
 
 enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
 
@@ -22,7 +22,7 @@ enable_smart_app_banner                   : true                                
 # Information About Yourself
 your_name                                 : Viacheslav Nechyporenko                               
 your_link                                 : https://familycharades.com                   
-your_city                                 : Tallinn                                
+your_city                                 : Around the world                                
 email_address                             : atslavasdad@gmail.com
 facebook_username                         :                                           
 instagram_username                        : 
@@ -36,41 +36,29 @@ mastodon_link                             :
 # Feature List                            Edit, add or remove features to be presented.
 features                                  :
 
-  - title                                 : GitHub Pages Jekyll Theme
-    description                           : Designed for GitHub Pages. Fork. Edit _config.yml. Upload screenshot/video. Push to gh-pages branch. Voilá!
-    fontawesome_icon_name                 : magic
-    
-  - title                                 : iPhone Device Preview
-    description                           : Preview your app in the context of an iPhone device. Five different device colors included.
-    fontawesome_icon_name                 : mobile
+  - title                                 : Family Fun Gameplay
+    description                           : Enjoy a charades & alias game that brings the whole family together for endless fun and laughter!
+    fontawesome_icon_name                 : users
 
-  - title                                 : Video Support
-    description                           : Preview app video on the iPhone device simply by placing your video files in the videos folder.
-    fontawesome_icon_name                 : play-circle
+  - title                                 : No Reading Required
+    description                           : Picture-supported word cards let non-readers jump right in—perfect for the youngest players.
+    fontawesome_icon_name                 : child
 
-  - title                                 : Automatic Icon and Metadata
-    description                           : Enter iOS app ID in the _config.yml file to automatically fetch app icon, price and App Store Link.
-    fontawesome_icon_name                 : sync
+  - title                                 : Educational Development
+    description                           : Boost creativity, communication, and social skills—playful learning for kids and parents alike.
+    fontawesome_icon_name                 : brain
 
-  - title                                 : Easy to Tweak
-    description                           : Tweak accent color, images, icons and transparency via the _config.yml file. No HTML/CSS needed.
-    fontawesome_icon_name                 : adjust
-  
-  - title                                 : Feature List
-    description                           : Add features (like this one) to your site via the _config.yml file. No HTML/CSS needed.
-    fontawesome_icon_name                 : star
+  - title                                 : 300+ Words & Multiple Categories
+    description                           : Choose from over 300 words across a range of categories to keep every round fresh and exciting.
+    fontawesome_icon_name                 : list
 
-  - title                                 : Smart App Banner
-    description                           : Display a smart app banner on iOS devices.
-    fontawesome_icon_name                 : arrow-alt-circle-down
+  - title                                 : Customizable & Action-Packed
+    description                           : Tailor your game with customizable settings and fun action cards that add unique challenges.
+    fontawesome_icon_name                 : sliders-h
 
-  - title                                 : Social Links
-    description                           : Easily add social media accounts and contact info in the footer via the _config.yml file. No HTML/CSS needed.
-    fontawesome_icon_name                 : link
-
-  - title                                 : FontAwesome Support
-    description                           : Pick custom Font Awesome icons for the feature list via the _config.yml file. No HTML/CSS needed.
-    fontawesome_icon_name                 : info-circle
+  - title                                 : Printable Word List
+    description                           : Unlock a printable version of all words with an optional subscription for even more ways to play.
+    fontawesome_icon_name                 : print
 
   - title                                 : # New Feature Title
     description                           : # New Feature Description
@@ -79,9 +67,9 @@ features                                  :
 
 
 # Theme Settings
-topbar_color                              : "#131313"                                # Matching black from design system
+topbar_color                              : "#cce5e5"                                # Matching black from design system
 topbar_transparency                       : 0.9                                      # Increased opacity for better contrast
-topbar_title_color                        : "#FDFDFD"                               # Matching white from design system
+topbar_title_color                        : "#131313"                               # Matching white from design system
 
 # Add these lines for your custom domain
 url: "https://familycharades.com"
@@ -91,11 +79,11 @@ cover_image                               : #assets/headerimage.png
 cover_overlay_color                       : "#F2E6F7"                               # Matching lightPink from design system
 cover_overlay_transparency                : 0.8
 
-device_color                              : coral                                     # Keeping black device color
+device_color                              : black                                     # Keeping black device color
 
 body_background_color                     : "#F2E6F7"                               # Matching lightPink background
 
-link_color                                : "#DFC9FA"                               # Using darkBlue for links
+link_color                                : "#131313"                               # Using darkBlue for links
 
 app_title_color                           : "#131313"                               # Using black for contrast
 app_price_color                           : "#131313"                               # Using black for contrast
@@ -104,11 +92,11 @@ app_description_color                     : "#131313"                           
 feature_title_color                       : "#131313"                               # Using black for titles
 feature_text_color                        : "#6B8989"                               # Using lightGray for feature text
 
-feature_icons_foreground_color            : "#FEDA79"                               # Using darkYellow for icons
-feature_icons_background_color            : "#FFEAB1"                               # Using lightYellow for icon backgrounds
+feature_icons_foreground_color            : "#131313"                               # Using darkYellow for icons
+feature_icons_background_color            : "#FFFFFF"                               # Using lightYellow for icon backgrounds
 
 social_icons_foreground_color             : "#131313"                               # Using black for social icons
-social_icons_background_color             : "#CCE5E5"                               # Using lightBlue for social icon backgrounds
+social_icons_background_color             : "#FFFFFF"                               # Using lightBlue for social icon backgrounds
 
 footer_text_color                         : "#6B8989"                               # Using lightGray for footer text
 
