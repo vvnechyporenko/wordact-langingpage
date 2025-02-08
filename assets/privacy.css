@@ -1,0 +1,62 @@
+/* Privacy Policy Page Styling */
+.page.markdown-body {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    margin: 40px 0;
+}
+
+.page.markdown-body h1 {
+    color: var(--accent-color);
+    margin-bottom: 30px;
+}
+
+.page.markdown-body h2 {
+    color: var(--primary-text-color);
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.page.markdown-body p {
+    color: var(--secondary-text-color);
+    line-height: 1.6;
+}
+
+.page.markdown-body ul {
+    color: var(--secondary-text-color);
+    margin-left: 20px;
+}
+
+.page.markdown-body a {
+    color: var(--accent-color);
+    text-decoration: none;
+}
+
+.page.markdown-body a:hover {
+    text-decoration: underline;
+}
+
+.page.markdown-body hr {
+    border: none;
+    border-top: 1px solid #eee;
+    margin: 30px 0;
+}
+
+/* Make sure the page uses the same background as the landing page */
+.imageWrapper {
+    background-color: var(--body-color);
+    min-height: 100vh;
+}
+
+.headerBackground {
+    background-color: var(--header-color);
+}
+
+/* Responsive adjustments */
+@media only screen and (max-width: 768px) {
+    .page.markdown-body {
+        padding: 20px;
+        margin: 20px 0;
+    }
+} 
