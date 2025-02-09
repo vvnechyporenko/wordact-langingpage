@@ -31,7 +31,7 @@ include_in_header: true
 
 Bring your family together for a laugh-filled game night with our easy-to-print word and moves cards! Enjoy a charades & alias combo designed especially for non-readers that boosts creativity, communication, and confidence for all ages.
 
----
+<hr style="border-top: 1px solid black; margin: 2em 0; background: none;">
 
 ## What's Included
 
@@ -64,7 +64,7 @@ Download each word category separately to suit your game night needs:
 
 [<i class="fas fa-car"></i>  Vehicles](/assets/printables/Words/vehicles.pdf){: .download-btn onclick="trackPrintableDownload('words', 'vehicles.pdf')"}
 
----
+<hr style="border-top: 1px solid black; margin: 2em 0; background: none;">
 
 ## How to Use
 
@@ -77,7 +77,7 @@ Download each word category separately to suit your game night needs:
 4. **Customize:**  
    Add your own words or categories to personalize your family game night even further.
 
----
+<hr style="border-top: 1px solid black; margin: 2em 0; background: none;">
 
 ## How to Play
 
@@ -88,7 +88,7 @@ Follow these simple steps to get started:
 4. **Draw Randomly:** Each team draws a random move card and a word card.
 5. **Have Fun:** Enjoy the game, laugh together, and let the creativity flow!
 
----
+<hr style="border-top: 1px solid black; margin: 2em 0; background: none;">
 
 ## Why Play on the App?
 
@@ -102,7 +102,7 @@ Upgrade your play experience and discover why playing in the app is the ultimate
 
 [<i class="fab fa-app-store-ios"></i> Download on the App Store](https://apps.apple.com/us/app/id6741069450){: .btn .btn-primary }
 
----
+<hr style="border-top: 1px solid black; margin: 2em 0; background: none;">
 
 ## Printing Tips
 
@@ -120,7 +120,7 @@ Upgrade your play experience and discover why playing in the app is the ultimate
    - Store away from direct sunlight
    - Keep away from liquids
 
----
+<hr style="border-top: 1px solid black; margin: 2em 0; background: none;">
 
 ## Need Help?
 
@@ -129,7 +129,7 @@ If you're having trouble with downloading or printing, please contact us at:
 
 We're happy to help you get started with your printable charades cards!
 
----
+<hr style="border-top: 1px solid black; margin: 2em 0; background: none;">
 
 **Note**: All printable materials are for personal use only and are covered under our Terms of Service.
 

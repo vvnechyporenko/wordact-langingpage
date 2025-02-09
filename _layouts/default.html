@@ -71,13 +71,13 @@
     <script>
         // Your web app's Firebase configuration
         const firebaseConfig = {
-            apiKey: "AIzaSyBDy2Mskq-BdD_c6MpZP2-Mf-d587C1wTQ",
-            authDomain: "charades-70520.firebaseapp.com",
-            projectId: "charades-70520",
-            storageBucket: "charades-70520.firebasestorage.app",
-            messagingSenderId: "788064883960",
-            appId: "1:788064883960:web:61ef5eff05ef0bd988970d",
-            measurementId: "G-CDC10KQ3J2"
+            apiKey: "{{ site.data.firebase.apiKey }}",
+            authDomain: "{{ site.data.firebase.authDomain }}",
+            projectId: "{{ site.data.firebase.projectId }}",
+            storageBucket: "{{ site.data.firebase.storageBucket }}",
+            messagingSenderId: "{{ site.data.firebase.messagingSenderId }}",
+            appId: "{{ site.data.firebase.appId }}",
+            measurementId: "{{ site.data.firebase.measurementId }}"
         };
 
         // Initialize Firebase
