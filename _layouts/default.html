@@ -69,20 +69,46 @@
     <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-analytics-compat.js"></script>
     
     <script>
-        // Your web app's Firebase configuration
-        const firebaseConfig = {
-            apiKey: "{{ site.data.firebase.apiKey }}",
-            authDomain: "{{ site.data.firebase.authDomain }}",
-            projectId: "{{ site.data.firebase.projectId }}",
-            storageBucket: "{{ site.data.firebase.storageBucket }}",
-            messagingSenderId: "{{ site.data.firebase.messagingSenderId }}",
-            appId: "{{ site.data.firebase.appId }}",
-            measurementId: "{{ site.data.firebase.measurementId }}"
-        };
+        // Check cookie consent before initializing Firebase
+        function initializeFirebase() {
+            const firebaseConfig = {
+                apiKey: "{{ site.data.firebase.apiKey }}",
+                authDomain: "{{ site.data.firebase.authDomain }}",
+                projectId: "{{ site.data.firebase.projectId }}",
+                storageBucket: "{{ site.data.firebase.storageBucket }}",
+                messagingSenderId: "{{ site.data.firebase.messagingSenderId }}",
+                appId: "{{ site.data.firebase.appId }}",
+                measurementId: "{{ site.data.firebase.measurementId }}"
+            };
 
-        // Initialize Firebase
-        firebase.initializeApp(firebaseConfig);
-        const analytics = firebase.analytics();
+            // Initialize Firebase only if consent given
+            if (localStorage.getItem('cookieConsent') === 'accepted') {
+                firebase.initializeApp(firebaseConfig);
+                analytics = firebase.analytics();
+            }
+        }
+
+        // Cookie consent handlers
+        function acceptCookies() {
+            localStorage.setItem('cookieConsent', 'accepted');
+            document.getElementById('cookie-banner').style.display = 'none';
+            initializeFirebase();
+        }
+
+        function declineCookies() {
+            localStorage.setItem('cookieConsent', 'declined');
+            document.getElementById('cookie-banner').style.display = 'none';
+        }
+
+        // Check if we need to show the banner
+        document.addEventListener('DOMContentLoaded', function() {
+            const consent = localStorage.getItem('cookieConsent');
+            if (!consent) {
+                document.getElementById('cookie-banner').style.display = 'block';
+            } else if (consent === 'accepted') {
+                initializeFirebase();
+            }
+        });
 
         // Track app store clicks
         function trackAppStoreClick(store) {
@@ -100,5 +126,7 @@
             });
         }
     </script>
+
+    {% include cookie-consent.html %}
 </body>
 </html>

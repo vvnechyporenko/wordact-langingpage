@@ -15,7 +15,7 @@ Thank you for choosing **Family Charades** (“the App,” “we,” “our,” 
 
 ## 1. Overview
 
-- **Platform**: iOS only  
+- **Platform**: iOS, Web
 - **Intended Audience**: Families of all ages, suitable for children aged 4+  
 - **Global Availability**: The App is offered worldwide.  
 
