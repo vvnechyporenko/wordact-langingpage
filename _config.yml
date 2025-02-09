@@ -100,6 +100,9 @@ social_icons_background_color             : "#FFFFFF"                           
 
 footer_text_color                         : "#6B8989"                               # Using lightGray for footer text
 
+# Add these lines for proper asset handling
+baseurl: ""  # If your site is at the root
+
 
 
 
