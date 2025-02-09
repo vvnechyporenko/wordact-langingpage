@@ -5,6 +5,26 @@ permalink: /printable/
 include_in_header: true
 ---
 
+<script>
+    // Track printable page view when the page loads
+    document.addEventListener('DOMContentLoaded', function() {
+        if (typeof trackPrintableView === 'function') {
+            trackPrintableView();
+        }
+    });
+
+    // Track printable downloads
+    function trackPrintableDownload(category, filename) {
+        if (typeof firebase !== 'undefined' && firebase.analytics) {
+            firebase.analytics().logEvent('printable_download', {
+                category: category,
+                filename: filename,
+                page_url: window.location.href
+            });
+        }
+    }
+</script>
+
 # Printable
 
 ## Family Charades Printable Kit – 300+ Words, Images & Moves
@@ -19,30 +39,30 @@ Bring your family together for a laugh-filled game night with our easy-to-print 
 **All Moves in One PDF**  
   Download a comprehensive moves file featuring fun actions and silly twists to enhance your gameplay.
 
-  [<i class="fas fa-download"></i> Download Moves](/assets/printables/moves.pdf){: .btn .btn-primary }
+  [<i class="fas fa-download"></i> Download Moves](/assets/printables/moves.pdf){: .btn .btn-primary onclick="trackPrintableDownload('moves', 'moves.pdf')"}
 
 ### Word Categories
 Download each word category separately to suit your game night needs:
 
-[<i class="fas fa-paw"></i>  Animals](/assets/printables/Words/animals.pdf){: .download-btn }
+[<i class="fas fa-paw"></i>  Animals](/assets/printables/Words/animals.pdf){: .download-btn onclick="trackPrintableDownload('words', 'animals.pdf')"}
 
-[<i class="fas fa-smile"></i>  Emotions & Adjectives](/assets/printables/Words/emotions.pdf){: .download-btn }
+[<i class="fas fa-smile"></i>  Emotions & Adjectives](/assets/printables/Words/emotions.pdf){: .download-btn onclick="trackPrintableDownload('words', 'emotions.pdf')"}
 
-[<i class="fas fa-cube"></i>  Everyday Objects](/assets/printables/Words/objects.pdf){: .download-btn }
+[<i class="fas fa-cube"></i>  Everyday Objects](/assets/printables/Words/objects.pdf){: .download-btn onclick="trackPrintableDownload('words', 'objects.pdf')"}
 
-[<i class="fas fa-dragon"></i>  Fantasy & Mythical](/assets/printables/Words/fantasy.pdf){: .download-btn }
+[<i class="fas fa-dragon"></i>  Fantasy & Mythical](/assets/printables/Words/fantasy.pdf){: .download-btn onclick="trackPrintableDownload('words', 'fantasy.pdf')"}
 
-[<i class="fas fa-utensils"></i>  Food & Drinks](/assets/printables/Words/food.pdf){: .download-btn }
+[<i class="fas fa-utensils"></i>  Food & Drinks](/assets/printables/Words/food.pdf){: .download-btn onclick="trackPrintableDownload('words', 'food.pdf')"}
 
-[<i class="fas fa-music"></i>  Music & Instruments](/assets/printables/Words/music.pdf){: .download-btn }
+[<i class="fas fa-music"></i>  Music & Instruments](/assets/printables/Words/music.pdf){: .download-btn onclick="trackPrintableDownload('words', 'music.pdf')"}
 
-[<i class="fas fa-leaf"></i>  Nature](/assets/printables/Words/nature.pdf){: .download-btn }
+[<i class="fas fa-leaf"></i>  Nature](/assets/printables/Words/nature.pdf){: .download-btn onclick="trackPrintableDownload('words', 'nature.pdf')"}
 
-[<i class="fas fa-briefcase"></i>  Occupations](/assets/printables/Words/occupations.pdf){: .download-btn }
+[<i class="fas fa-briefcase"></i>  Occupations](/assets/printables/Words/occupations.pdf){: .download-btn onclick="trackPrintableDownload('words', 'occupations.pdf')"}
 
-[<i class="fas fa-football-ball"></i>  Sports & Activities](/assets/printables/Words/sports.pdf){: .download-btn }
+[<i class="fas fa-football-ball"></i>  Sports & Activities](/assets/printables/Words/sports.pdf){: .download-btn onclick="trackPrintableDownload('words', 'sports.pdf')"}
 
-[<i class="fas fa-car"></i>  Vehicles](/assets/printables/Words/vehicles.pdf){: .download-btn }
+[<i class="fas fa-car"></i>  Vehicles](/assets/printables/Words/vehicles.pdf){: .download-btn onclick="trackPrintableDownload('words', 'vehicles.pdf')"}
 
 ---
 
