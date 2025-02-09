@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Terms & Conditions
+title: T&C
 permalink: /terms/
 include_in_header: true
 ---
