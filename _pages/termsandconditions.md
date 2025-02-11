@@ -15,7 +15,7 @@ Welcome to **Family Charades** ("the App," "we," "us," or "our"). These Terms & 
 
 ## 1. Acceptance of Terms
 
-By installing, accessing, or using the App, you acknowledge that you have read, understood, and agree to be bound by these Terms, as well as our [Privacy Policy](/privacy/). If you do not agree to these Terms or our Privacy Policy, you must not use the App.
+By installing, accessing, or using the App, you acknowledge that you have read, understood, and agree to be bound by these Terms, as well as our [Privacy Policy](/privacy/). This app is subject to Apple's standard EULA ([https://www.apple.com/legal/internet-services/itunes/dev/stdeula/](https://www.apple.com/legal/internet-services/itunes/dev/stdeula/)). If you do not agree to these Terms, our Privacy Policy, or Apple's EULA, you must not use the App.
 
 <hr style="border-top: 1px solid black; margin: 2em 0; background: none;">
 
