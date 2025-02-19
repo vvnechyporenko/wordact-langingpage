@@ -46,6 +46,8 @@ Download each word category separately to suit your game night needs:
 
 [<i class="fas fa-paw"></i>  Animals](/assets/printables/words/animals.pdf){: .download-btn onclick="trackPrintableDownload('words', 'animals.pdf')"}
 
+[<i class="fas fa-child"></i>  Body Parts](/assets/printables/words/body.pdf){: .download-btn onclick="trackPrintableDownload('words', 'body.pdf')"}
+
 [<i class="fas fa-smile"></i>  Emotions & Adjectives](/assets/printables/words/emotions.pdf){: .download-btn onclick="trackPrintableDownload('words', 'emotions.pdf')"}
 
 [<i class="fas fa-cube"></i>  Everyday Objects](/assets/printables/words/objects.pdf){: .download-btn onclick="trackPrintableDownload('words', 'objects.pdf')"}
@@ -54,11 +56,15 @@ Download each word category separately to suit your game night needs:
 
 [<i class="fas fa-utensils"></i>  Food & Drinks](/assets/printables/words/food.pdf){: .download-btn onclick="trackPrintableDownload('words', 'food.pdf')"}
 
+[<i class="fas fa-gamepad"></i>  Games](/assets/printables/words/games.pdf){: .download-btn onclick="trackPrintableDownload('words', 'games.pdf')"}
+
 [<i class="fas fa-music"></i>  Music & Instruments](/assets/printables/words/music.pdf){: .download-btn onclick="trackPrintableDownload('words', 'music.pdf')"}
 
 [<i class="fas fa-leaf"></i>  Nature](/assets/printables/words/nature.pdf){: .download-btn onclick="trackPrintableDownload('words', 'nature.pdf')"}
 
 [<i class="fas fa-briefcase"></i>  Occupations](/assets/printables/words/occupations.pdf){: .download-btn onclick="trackPrintableDownload('words', 'occupations.pdf')"}
+
+[<i class="fas fa-map-marker-alt"></i>  Places](/assets/printables/words/places.pdf){: .download-btn onclick="trackPrintableDownload('words', 'places.pdf')"}
 
 [<i class="fas fa-football-ball"></i>  Sports & Activities](/assets/printables/words/sports.pdf){: .download-btn onclick="trackPrintableDownload('words', 'sports.pdf')"}
 
