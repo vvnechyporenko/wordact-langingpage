@@ -50,7 +50,7 @@ Download each word category separately to suit your game night needs:
 
 [<i class="fas fa-smile"></i>  Emotions & Adjectives](/assets/printables/words/emotions.pdf){: .download-btn onclick="trackPrintableDownload('words', 'emotions.pdf')"}
 
-[<i class="fas fa-cube"></i>  Everyday Objects](/assets/printables/words/objects.pdf){: .download-btn onclick="trackPrintableDownload('words', 'objects.pdf')"}
+[<i class="fas fa-cube"></i>  Everyday Objects](/assets/printables/words/everyday.pdf){: .download-btn onclick="trackPrintableDownload('words', 'objects.pdf')"}
 
 [<i class="fas fa-dragon"></i>  Fantasy & Mythical](/assets/printables/words/fantasy.pdf){: .download-btn onclick="trackPrintableDownload('words', 'fantasy.pdf')"}
 
